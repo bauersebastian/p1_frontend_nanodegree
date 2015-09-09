@@ -1,0 +1,72 @@
+#logo-pic {
+	max-width: 100%; /*preventing overflow of logo*/
+	margin: 15px 0 10px 0;
+	max-height: 80px; /*max. height for smaller screens*/
+	width:100%;
+}
+
+#intro-name {
+	text-transform: uppercase;
+}
+
+#head-introduction { /*seperating the header from content*/
+	border-bottom-color: #bcbbbb;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+}
+
+#head-name {
+	color:#7f7e7e;
+}
+
+#portrait_row {
+	margin: 10px 0 10px 0;
+	padding: 0; /*use full width of row*/
+}
+
+#portrait_pic {
+	max-width: 100%;
+}
+
+.reference_title {
+	text-transform: uppercase;
+}
+
+.reference_logo {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.reference_link {
+	margin-bottom: 5px;
+}
+
+/*Responsive CSS Styles */
+
+@media (max-width: 991px) {
+	.references {
+		border-bottom-color: #bcbbbb;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+	}
+}
+
+@media (min-width: 768px) {
+	.name_heading {
+		text-align: right;
+	}
+}
+
+@media (max-width: 767px) {
+	.name_heading {
+		text-align: center;
+	}
+}
+
+@media (max-width: 750px) {
+	#portrait_pic {
+		max-width: 100%;
+		width: 75vw;
+		margin: 0 auto;
+	}
+}
